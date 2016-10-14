@@ -7,11 +7,12 @@
  */
 function p($var)
 {
-    if(is_bool($var)){
+    if (is_bool($var)) {
         var_dump($var);
-    }elseif (is_null($var)){
+    }elseif (is_null($var)) {
         var_dump(null);
-    }else{
-        echo"<pre style='position:relative;z-index:1000;padding:10px ;background:#F5F5F5;'>".print_r($var)."</pre>";
+    }else {
+        echo'<pre>';
+         print_r($var) ;
     }
 }

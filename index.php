@@ -23,4 +23,8 @@ if(DEBUG){
     ini_set('display_error','off');
 }
 include CORE.'/common/function.php';
-p(TOTEM);
+
+include  CORE.'/totem.php';
+
+spl_autoload_register('\core\totem::autoLoad');
+\core\totem::run();
