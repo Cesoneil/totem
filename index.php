@@ -11,10 +11,9 @@
  * 2、加载函数库
  * 3、启动框架
  */
-
-define('TOTEM',realpath(' /')); //根目录
+define('TOTEM',realpath('./')); //根目录
 define('CORE',TOTEM.'/core');  //核心文件
-define('APP',TOTEM.'/app');
+define('APP',TOTEM.'/app');    //项目目录
 
 define('DEBUG',true);//开启调试模式
 
