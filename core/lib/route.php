@@ -20,6 +20,6 @@ class route
            * 3、返回对应的控制器和方法
            */
 
-          p($_SERVER);
+          p($_SERVER); echo 111;
       }
 }
