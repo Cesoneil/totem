@@ -15,6 +15,8 @@ class totem
     static public function run()
     {
         // p('ok');
+        \core\lib\log::init();
+        \core\lib\log::log($_SERVER);
         $route      = new \core\lib\route();
         $ctrlClasss = $route->ctrl;
         $action     = $route->action;
