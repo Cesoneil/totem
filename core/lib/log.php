@@ -27,4 +27,4 @@ class log
     static public function log($name,$file='log'){
        self::$class->log($name,$file);
     }
-}
+}   
