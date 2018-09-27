@@ -50,4 +50,4 @@ Totem 1.0 - for php framework
 
 All rights reserved。
 
-Totem Framework® 商标和著作权所有者为深圳市尼尔科技文化有限公司
+Totem Framework® 商标和著作权所有者为Neil Chen
