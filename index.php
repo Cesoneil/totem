@@ -14,6 +14,7 @@
 define('TOTEM',realpath('./')); //根目录
 define('CORE',TOTEM.'/core');  //核心文件
 define('APP',TOTEM.'/app');    //项目目录
+define('MODULE','app');
 
 define('DEBUG',true);//开启调试模式
 
