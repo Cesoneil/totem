@@ -10,7 +10,7 @@ Totem 1.0 - for php framework
 [![License](https://poser.pugx.org/topthink/framework/license)](https://packagist.org/packages/topthink/framework)
 
 ## 框架要求 > 大于php7.0
-> 框架 配置
+ > 框架 配置
   + 路由注解 (路由传值参数) /:id
   + 权限注解 (分权限注解和头注解)
   + 接口验证注解 (传参不符规则直接返回,注意减少加载文件)
@@ -24,7 +24,7 @@ Totem 1.0 - for php framework
   + 支持DEBUG调式
   + 时间机制选择
 
-> 数据库模块配置 (PostgreSql、Mysql)
+ > 数据库模块配置 (PostgreSql、Mysql)
   + 数据库自动打包
   + 自动生成 DateBase 和 table
   + 多DB数据自动部署
@@ -34,7 +34,7 @@ Totem 1.0 - for php framework
   + 支持数据库分布式环境部署环境
   + 自动支持事务回滚机制
 
-> 其他要求配置
+ > 其他要求配置
   + redis、cache、log、session、cookie
   + 第三方业务逻辑处理机制 (aliPay 、wechat)
   + 异常处理机制、缓存机制、头部接口处理、接口缓存
