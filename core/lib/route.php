@@ -48,7 +48,7 @@ class route
             }
            // p($_GET);
 
-        }else {
+        } else {
             $this->ctrl  =conf::get('CTRL','route');
             $this->action=conf::get('ACTION','route');
         }

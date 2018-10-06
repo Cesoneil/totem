@@ -11,7 +11,7 @@ namespace app\ctrl;
      public function index(){
          //p("it is index");
          $model=new \core\lib\model();
-         $sql='select * from cc';
+         $sql='select * from user';
          $res=$model->query($sql);
          p($res->fetchAll());
          exit;

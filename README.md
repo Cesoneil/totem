@@ -47,7 +47,9 @@ Totem 1.0 - for php framework
 
 业务执行----->解析Router---->执行逻辑---->执行结果---->返回执行结果
 
-版权所有Copyright © 2006-2017 by Start Chat
+入口文件->解析路由->获取路由映射情况->读取路由映射规则
+
+版权所有Copyright © 2018-2019 by Neil Chen
 
 All rights reserved。
 
